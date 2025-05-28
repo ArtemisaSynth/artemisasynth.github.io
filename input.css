@@ -1,0 +1,8 @@
+/* input.css */
+
+/* Include Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: additional custom styles */
