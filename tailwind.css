@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+	--color-primary: "#6B21A8";			/* morado profundo */
+	--color-secondary: "#E11D74";		/* magenta eléctrico */
+	--color-accent: "#00F0FF";			/* azul turquesa neón */
+	--color-backgroundDark: "#1F1B2E";	/* gris azulado oscuro */
+	--color-textLight: "#EDEDED";		/* blanco roto */
+}
