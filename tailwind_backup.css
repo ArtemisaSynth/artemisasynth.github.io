@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+	--color-mint-500: oklch(0.72 0.11 178);			/* testing */
+	--color-primary: oklch(0.72 0.11 178);			/* morado profundo */
+	--color-secondary: oklch(0.72 0.11 178);		/* magenta eléctrico */
+	--color-accent: oklch(0.72 0.11 178);			/* azul turquesa neón */
+	--color-backgroundDark: oklch(0.72 0.11 178);	/* gris azulado oscuro */
+	--color-textLight: oklch(0.72 0.11 178);		/* blanco roto */
+}
