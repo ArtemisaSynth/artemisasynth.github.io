@@ -95,8 +95,9 @@
     document.getElementById('quote').textContent = t.quote;
   };
 
-  // Set default language
-  setLanguage('en');
+  // Detect browser language
+  const userLang = navigator.language.slice(0, 2);
+  setLanguage(translations[userLang] ? userLang : 'en');
 
   // Add event listeners
   document.querySelectorAll('nav button').forEach(btn => {
